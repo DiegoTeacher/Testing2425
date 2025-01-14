@@ -6,6 +6,7 @@ public class Coin : MonoBehaviour
 {
     public int value = 1;
 
+    // comento porq el profe me lo dice
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.GetComponent<PlatformMovement>())
